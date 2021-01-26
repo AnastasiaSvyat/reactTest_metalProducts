@@ -1,0 +1,75 @@
+.container,.showMenu{
+    width: 100%;
+}
+.container{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.showMenuimg img,.searchTel{
+    width: 20px;
+    height: 20px;
+    margin-right: 21px;
+    margin-top: 21px;
+}
+.searchTel{
+    margin-left: 170px;
+}
+.logo img{
+    margin-top: 2px;
+    margin-left: 16px;
+}
+.showMenu{
+    height: 580px;
+    right: 0px;
+    margin-top: 60px;
+    position: absolute;
+    z-index: 9999;
+    background: linear-gradient(180deg, #49494A 17.19%, #383836 100%);
+}
+.emptiness{
+    display: none;
+}
+.close{
+    width: 1px;
+    height: 1px;
+}
+.menuText,.menuTextFirst{
+    width: 328px;
+    height: 61px;
+    border-bottom: 2px solid  rgba(228, 181, 107, 0.5);
+    margin: auto;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 20px;
+    padding-left: 16px;
+}
+.menuTextFirst{
+    color: #AEAEAE;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.searchTelBox{
+    width: 194px;
+    height: 30px;
+    border: 1px solid rgba(62, 62, 62, 0.22);
+    display: flex;
+}
+.flagBox{
+    display: flex;
+}
+.inputTel input{
+    text-decoration: none;
+    width: 100px;
+}
+.flagUSATel img,.flagUKTel img,.flagRUTel img{
+    width: 31px;
+    height: 28px;
+    margin-left: 10px;
+}
+.flagUKTel img,.flagUSATel img{
+    opacity: 0.3;
+}

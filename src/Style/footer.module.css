@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), url(../font/Roboto/Roboto-Light.ttf) format('woff');
+  }
+.footer,.footer_aboutCompany_name,.footer_services_name{
+    height: 221px;
+    width: 100%;
+}
+.footer,.footer_services_itemBox{
+    flex-wrap: wrap;
+    display: flex;
+}
+.footer_aboutCompany{
+    width: 417px;
+}
+.footer_services{
+    width: 499px;
+}
+.footer_contacts{
+    width: 444px;
+}
+.footer_aboutCompany_name,.footer_services_name{
+    height: 55px;
+    border-right: 1px solid #E4B56B;
+}
+.footer_aboutCompany_name p,.footer_services_name p,h4,.footer_contacts_time{
+   font-family: 'Raleway';
+   font-size: 18px;
+   line-height: 21px;
+   color: #3E3E3E;
+   padding-top: 20px;
+}
+.footer_aboutCompany_name p,.footer_aboutCompany_item{
+    padding-left: 90px;
+}
+.footer_services_name p,.footer_services_first p{
+    padding-left: 40px;
+}
+.footer_services_second p{
+    padding-left: 55px;
+}
+.footer_aboutCompany_item p,.footer_services_itemBox p{
+    padding-bottom: 15px;
+}
+.footer_aboutCompany_item a,.footer_services_itemBox a{
+    text-decoration: none;
+    color: #AEAEAE;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Raleway';
+}
+.footer_contacts{
+    padding-left: 145px;
+}
+h4{
+    font-size: 18px;
+}
+.footer_contacts_street,.footer_contacts_tel{
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Roboto';
+    margin-top: 9px;
+    color: #3E3E3E;
+}
+.footer_contacts_time,.footer_contacts_tel,.footer_contacts_int{
+    padding-top: 15px;
+    font-size: 16px;
+}
+.footer_contacts_int{
+    display: flex;
+}
+.footer_contacts_int img{
+    width: 21px;
+    height: 21px;
+    margin-right: 15px;
+}
+.footer_services_itemBox,.footer_aboutCompany_item{
+    margin-top: 30px;
+}
+.footer_img{
+    width: 91px;
+    height: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+@media screen and (max-width: 1359px) {
+    .footer_aboutCompany{
+        width: 127px;
+        height: 100px;
+    }
+    .footer_services{
+        width: 221px;
+    }
+    .footer_aboutCompany_name p,.footer_services_name p,.footer_contacts_time{
+        font-size: 16px;
+        line-height: 18.78px;
+     }
+     .footer_aboutCompany_name p,.footer_aboutCompany_item{
+        padding-left: 16px;
+    }
+    .footer_services_name p,.footer_services_first p{
+        padding-left: 21px;
+    }
+    .footer_aboutCompany_item a,.footer_services_itemBox a{
+        font-size: 14px;
+        line-height: 16.55px;
+    }
+    .footer_services_itemBox,.footer_aboutCompany_item{
+        margin-top: 20px;
+    }
+    .footer_contacts{
+        padding-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .footer_contacts_int {
+        width: 93px;
+        margin: auto;
+    }
+    h4{
+        padding-top: 5px;
+    }
+    .footer_contacts_street,.footer_contacts_tel{
+        line-height: 18.87px;
+        padding-top: 15px;
+        width: 190px;
+        height: 57px;
+        margin: auto;
+    }
+    .footer_contacts_time,.footer_contacts_tel{
+        padding-top: 20px;
+    }
+    .footer_img{
+        width: 47px;
+        margin-top: 310px;
+    }
+}
+

@@ -1,0 +1,124 @@
+h2{
+    text-align: center;
+    margin-top: 30px;
+    line-height: 60px;
+    font-size: 40px;
+    font-family: 'Raleway';
+}
+.scrollRotate{
+    width: 100%;
+}
+.servicesBox{
+    width: 1187px;
+    height: 625px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    justify-content: space-between;
+}
+.sixesFirst,.sixesSecond,.sixesThird,.sixesForth{
+    margin-top: 104px;
+    position: absolute;
+}
+.sixesSecond{
+    margin-top: 350px;
+}
+.sixesThird{
+    margin-left: 1160px;
+    margin-top: 95px;
+}
+.sixesForth{
+    margin-left: 1080px;
+    margin-top: 316px;
+}
+.borderTop{
+    width: 82px;
+    height: 2px;
+    border-top: 2px solid #E4B56B;
+    margin: auto;
+    margin-top: 10px;
+}
+.servicesBox_img,.servicesBox_img2{
+   width: 387px;
+   height: 201px;
+   margin-top: 10px;
+   padding-top: 32px;
+}
+.grey{
+    width: 333px;
+    height: 56px;
+    background-color: #3E3E3E;
+    opacity: 0.8;
+}
+.grey p {
+    color: white;
+    opacity: 1;
+    font-family: 'Raleway';
+    font-size: 20px;
+    padding-top: 16px;
+    padding-left: 15px;
+}
+.servicesBox_img2{
+    width: 582px;
+    height: 202px;
+    margin-left: 10px;
+}
+.grey_info{
+    width: 316px;
+    height: 46px;
+    border-right: 2px solid #E4B56B;
+}
+.servicesBox_button{
+    text-align: center;
+}
+.servicesBox_button button{
+    width: 379px;
+    height: 43px;
+    background-color: #454647;
+    margin-top: 20px;
+    font-family: 'Raleway';
+    color: white;
+    font-size: 20px;
+}
+@media screen and (max-width: 1359px) {
+    .servicesBox_button button{
+        width: 328px;
+        height: 36px;
+    }
+    h2{
+        margin-top: 20px;
+        line-height: 23.48px;
+        font-size: 20px;
+    }
+    .servicesBox_img,.servicesBox_img2{
+        width: 159px;
+        height: 105px;
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+    .servicesBox{
+        width: 328px;
+        height: 470px;
+    }
+    .grey{
+        width: 149px;
+        height: 36px;
+    }
+    .grey_info{
+        width: 137px;
+        height: 23px;
+        border-right: 2px solid #E4B56B;
+    }
+    .sixesFirst,.sixesForth,.sixesSecond,.sixesThird{
+        display: none;
+    }
+    .grey p {
+        font-size: 12px;
+        padding-top: 3px;
+        padding-left: 6px;
+        vertical-align: middle;
+    }
+       
+}

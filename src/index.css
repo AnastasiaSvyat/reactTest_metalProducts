@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.borderTop{
+  width: 82px;
+  height: 2px;
+  border-top: 2px solid #E4B56B;
+  margin: auto;
+  margin-top: 10px;
+}
+.alert-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.alert-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 500ms, transform 500ms;
+}
+.alert-exit {
+  opacity: 1;
+}
+.alert-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 500ms, transform 500ms;
+}
+@media screen and (max-width: 1360px) {
+  .borderTop{
+    width: 60px;
+    height: 2px;
+    border-top: 2px solid #E4B56B;
+    margin-top: 5px;
+  }
+ }
+
+  

@@ -1,0 +1,108 @@
+.ourCompany_img1,.ourCompany_img2{
+    width: 100%;
+    height: 380px;
+    margin-top: 32px;
+    padding-top: 60px;
+    background-image: url(../img/ourCompany2.png);
+}
+.ourCompany_h2{
+    margin-top: 50px;
+}
+.ourCompany_img2{
+    margin-top: 30px;
+    padding-top: 58px;
+    background-image: url(../img/ourCompany1.png);
+}
+.ourCompany_img2 div{
+    margin: 0 0 0 auto;
+}
+.ourCompany_grey1,.ourCompany_grey2{
+    width: 750px;
+    height: 260px;
+    opacity: 0.8;
+    background-color: #3E3E3E;
+}
+.ourCompany_grey_info1,.ourCompany_grey_info2{
+    height: 212px;
+    width: 687px;
+}
+.ourCompany_grey_info1{
+    border-right: 2px solid #E4B56B;
+}
+.ourCompany_grey_info2{
+    width: 670px;
+    margin-left: 78px;
+    border-left: 2px solid #E4B56B;
+}
+h3,.ourCompany_grey_info1 p,.ourCompany_grey_info2 p{
+    font-family: 'Raleway';
+    color: white;
+    font-size: 40px;
+    line-height: 60px;
+}
+.ourCompany_grey_info1 h3,.ourCompany_grey_info2 h3{
+    padding-top: 20px;
+}
+.ourCompany_grey_info1 h3,.ourCompany_grey_info1 p{
+    margin-left: 90px;
+}
+.ourCompany_grey_info2 h3,.ourCompany_grey_info2 p{
+    margin-left: 35px;
+}
+.ourCompany_grey_info1 p,.ourCompany_grey_info2 p{
+   line-height: 23px;
+   font-size: 18px;
+   padding-top: 25px;
+   width: 545px;
+   height: 115px;
+}
+
+@media screen and (max-width: 1359px) {
+    .ourCompany_h2{
+        margin-top: 30px;
+    }
+    .ourCompany_img1,.ourCompany_img2{
+        width: 100%;
+        height: 236px;
+        margin-top: 20px;
+        padding-top: 28px;
+        background-image: url(../img/ourCompany1Tel.png);
+
+    }
+    .ourCompany_img2{
+        background-image: url(../img/ourCompany2Tel.png);
+
+    }
+    .ourCompany_grey1,.ourCompany_grey2{
+        width: 326px;
+        height: 180px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .ourCompany_grey_info1,.ourCompany_grey_info2{
+        height: 100px;
+        width: 304px;
+    }
+    .ourCompany_grey_info1 h3,.ourCompany_grey_info1 p{
+        margin-left: 16px;
+    }
+    .ourCompany_grey_info2 h3,.ourCompany_grey_info2 p{
+        margin-left: 43px;
+    }
+    .ourCompany_grey_info1 h3,.ourCompany_grey_info2 h3{
+        padding-top: 15px;
+        height: 53px;
+    }                                                                                          
+    .ourCompany_grey_info1 p,.ourCompany_grey_info2 p{
+        line-height: 16px;
+        font-size: 12px;
+        margin-top: 0;
+        padding-top:0px;
+        width: 261px;
+        height: 112px;
+    }
+    
+}
+
+
